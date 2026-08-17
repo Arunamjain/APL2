@@ -4,20 +4,20 @@ public class Problem2_MatrixMultiplication {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         try {
-            System.out.print("Enter rows and cols for Matrix A: ");
+            System.out.print("Enter rows and cols for A: ");
             int rA = sc.nextInt(); int cA = sc.nextInt();
             int[][] A = new int[rA][cA];
-            System.out.println("Enter elements of Matrix A:");
+            System.out.println("Enter elements of A:");
             for (int i = 0; i < rA; i++) {
                 for (int j = 0; j < cA; j++) {
                     A[i][j] = sc.nextInt();
                 }
             }
 
-            System.out.print("Enter rows and cols for Matrix B: ");
+            System.out.print("Enter rows and cols for B: ");
             int rB = sc.nextInt(); int cB = sc.nextInt();
             int[][] B = new int[rB][cB];
-            System.out.println("Enter elements of Matrix B:");
+            System.out.println("Enter elements of B:");
             for (int i = 0; i < rB; i++) {
                 for (int j = 0; j < cB; j++) {
                     B[i][j] = sc.nextInt();
